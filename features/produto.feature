@@ -13,7 +13,7 @@ Funcionalidade: Gerenciar Ofertas combo
         E cliente seleciona <nome>
         Quando confirmar a compra
         E algum outro produto de <nome> não estiver associado a um <centroDeDistribuição>.
-        Então o site deve retornar uma mensagem de erro 'resultado'
+        Então o site deve retornar uma mensagem de erro ' resultado '
 
     Contexto: A oferta criada com sucesso
 
@@ -51,7 +51,7 @@ Funcionalidade: Gerenciar Ofertas combo
         | nome                   | código  |  Quantidade | listaDeProdutos  | codigo após ser editada | listaDeProdutos_editada | Quantidade após ser editada  |  resultado                 |                              |
         | combo padaria          | 10023   |  1          | pão              |  10023                  |   pão                   | 2                            | 'Quantidade de produtos    |
         |                        | 10024   |  1          | biscoito         |  10045                  |   doce                  | 2                            | excedeu o limite           |
-        |                        | 10025   |  2          | queijo           |  10025                  |   queijo                | 3                            | de produtos em 3 unidades' |
+j        |                        | 10025   |  2          | queijo           |  10025                  |   queijo                | 3                            | de produtos em 3 unidades' |
         
         | nome                  | código   | Quantidade  | listaDeProdutos | código após editado| listaDeProdutos_editada | Quantidade após ser editada | resultado        |
         | combo açougue         | 10058    |   2         |  saco de carvão |10058               |   saco de carvão        |  2                          |   Oferta criada  |                       |
